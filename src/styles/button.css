@@ -1,0 +1,65 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+
+.navBar__container--button{
+    background-color: var(--grey-0);
+    border: 1px solid var(--grey-6);
+    color: var(--grey-5);
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.main__content--component{
+    margin-top: 44px;
+    margin-bottom: 250px;
+    background-color: var(--brand-1);
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.main__content--component:hover{
+    background-color: var(--brand-2)
+
+}
+
+.button__register--main{
+    height: 60px;
+    border-radius: 5px;
+    background-color: var(--brand-1);
+    margin-top: 33px;
+}
+
+.button__register--main:hover{
+    background-color: var(--brand-2);
+}
+
+/* ----------------------------buttons Modal ------------------------- */
+
+.finalize__register{
+    height: 2rem;
+    border-radius: .25rem;
+    padding: 0rem .75rem 0rem .75rem;
+    background-color: var(--grey-2);
+    color: var(--grey-4);
+    cursor: pointer;
+
+}
+.finalize__register:hover{
+    background-color: var(--grey-1);
+}
+
+.signUp{
+    height: 60px;
+    background-color: var(--brand-1);
+    border: 2px solid var(--brand-1);
+    border-radius: .25rem;
+    color: var(--grey-6);
+    cursor: pointer;
+}
+
+.signUp:hover{
+    background-color: var(--brand-2);
+}

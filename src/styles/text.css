@@ -1,0 +1,88 @@
+.font-title{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+    line-height: var(--line-height-2);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-6);
+}
+
+
+.font-title-1{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height-1);
+    font-family: var(--font-family);
+    color: var(--grey-6);
+}
+.font-title-2{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+    line-height: var(--line-height-2);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+}
+.font-title-3{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-3);
+    line-height: var(--line-height-3);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-6);
+}
+
+.font-text-1{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-4);
+    line-height: var(--line-height-4);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-6);
+}
+.font-text-2{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-5);
+    line-height: var(--line-height-5);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-4);
+    
+}
+.font-text-3{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-6);
+    line-height: var(--line-height-6);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-4);
+}
+
+.font-text-4{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-8);
+    line-height: var(--line-height-8);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-5);
+    text-align: center;
+}
+
+.font-text-5{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-7);
+    line-height: var(--line-height-7);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    color: var(--grey-4);
+}
+
+@media (min-width: 768px) {
+
+    .font-title{
+        font-weight: var(--font-weight-1);
+        font-size: var(--font-size-1);
+        line-height: var(--line-height-1);
+        font-family: var(--font-family);
+        color: var(--grey-6);
+    }
+}
